@@ -1,0 +1,37 @@
+/*  style file create by Jacob Boyette
+=======================================
+00: css variable
+01: color
+02: typography
+
+=======================================
+*/
+
+/* 00: css variable */
+:root{
+    --body-color: hsla(283, 17%, 36%, 0.905);
+    --page-color: rgba(255, 222, 181, 0.9);
+    --sidebar-color: rgb(251, 193, 178);
+    --font-color: hsla(180, 3%, 7%, 0.905);
+    --h1-color: rgb(62, 0, 0);
+}
+
+/* 01 color */
+body{
+    background-color: var(--body-color);
+}
+#zen-intro{
+    background-color: var(--page-color);
+    color: var(--font-color);
+}
+#zen-supporting{
+    background-color: var(--page-color);
+    color: var(--font-color);
+}
+.sidebar{
+    background-color: var(--sidebar-color);
+}
+h1{
+    color: var(--h1-color);
+}
+
